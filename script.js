@@ -1,7 +1,7 @@
-const btn = document.querySelector('.order-btn');
+const btn = document.querySelector('#collect-metrics-btn');
 
 
 btn.addEventListener('click', () => {
-    gtag('event', 'order_button_clicked');
+    gtag('event', 'user_click_btn');
     console.log('Дані відправлено!');
 });
